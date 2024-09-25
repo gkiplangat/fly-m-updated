@@ -3,7 +3,7 @@
 :root{
     --main-color:#d3ad7f;
     --black:#13131a;
-    --bg:#000435;
+    --nav-bg:#000435;
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: var(--bg);
+    background: white;
 }
 
 section{
@@ -73,7 +73,7 @@ section{
 }
 
 .header{
-    background: var(--bg);
+    background: var(--nav-bg);
     display: flex;
 	height: 80px;
     align-items: center;
