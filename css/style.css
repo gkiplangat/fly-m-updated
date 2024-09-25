@@ -486,3 +486,21 @@ ul {
 	}
 
 }
+/* footer */
+/* Responsive Css */
+@media(max-width: 900px)
+{
+    .footer-col{
+
+        width: 100%;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+}
+@media(max-width: 768)
+{
+    .footer-col{
+        width: 100%;
+        text-align: center;
+    }
+}
