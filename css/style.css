@@ -319,7 +319,7 @@ section{
 
 /* Footer Section */
 .footer {
-    background: #212121;
+    background: var(--nav-bg);
     padding: 70px 0;
 }
 .container
